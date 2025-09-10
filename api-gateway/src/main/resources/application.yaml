@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+application:
+  name: Api Gateway
+  version: SNAPSHOT-1.0
+spring-boot:
+  version: 3.2.4
+
+spring:
+  application:
+    name: api-gateway
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
