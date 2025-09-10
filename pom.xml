@@ -18,6 +18,7 @@
 	</developers>
 	<modules>
 		<module>eureka-server</module>
+		<module>api-gateway</module>
 	</modules>
 	<scm>
 		<connection/>
